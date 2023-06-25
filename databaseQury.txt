@@ -1,0 +1,14 @@
+INSERT INTO prod (id, prod_image, prod_name, prod_discription, prod_company, price, discount) VALUES (1, ' ', 'Pomidor', 'tipo ovosch', 'apple inc.', 140, 15);
+
+
+CREATE TABLE prod (
+	id INTEGER PRIMARY KEY AUTOINCREMENT,
+	prod_image BLOG NOT NULL,
+	prod_name TEXT, 
+	prod_discription TEXT NOT NULL,
+	prod_company TEXT NOT NULL,
+	price INTEGER,
+	discount INTEGER NOT NULL
+);
+
+SELECT * FROM prod;
